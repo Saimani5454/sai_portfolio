@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Aluru Saimadhav</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                            Home</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                            Portfolio</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                            About </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                            Services </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact"> Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Aluru Saimadhav</h1>
+                <h4 class="sub-heading">
+                    Recent Electronics and Communication Engineering graduate with skills in web development, Python. Eager to learn and contribute.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <a href="https://drive.google.com/file/d/1rLBA2YxXtGSyWiGIFP230XIvuyDluHf5/view?usp=drivesdk" target="_blank" rel="noopener">
+                 <button class="btn ghost-btn">Get Resume</button>
+</a>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://graffersid.com/wp-content/uploads/2023/08/MERN-Stack-scaled.webp" alt="Mern stack Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Mern Stack Developer</h3>
+                        <p class="small-para blue-text">Developer</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/005/442/693/small/data-science-analytics-internet-and-technology-concept-concept-photo.jpg" alt="Data science">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Data science
+                        </h3>
+                        <p class="small-para blue-text">Modelling</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="https://t3.ftcdn.net/jpg/07/11/26/60/240_F_711266053_vk4mgNhKyUXqFgxEuQ8xOQkKQ03fg7Vj.jpg" alt="Data Analytics">
+                        </div>
+                        <h3 class="greet-heading blue-text">Data Analytics</h3>
+                        <p class="small-para blue-text">Analytics</p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                My name is Sai Madhav. I am a recent Electronics and Communication Engineering graduate with skills in web development, Python. I am passionate about technology and enjoy building intuitive, user-friendly solutions. I am a quick learner with a strong drive to improve continuously through new challenges and hands-on projects. My strengths include problem-solving, analytical thinking, and adaptability. I strive to collaborate effectively and communicate well within teams, aiming to contribute meaningfully to innovative projects. I keep my coding skills updated and stay informed about the latest trends in technology. I am eager to grow professionally and contribute as a valuable member of a forward-thinking organization.
+            </p>
+   
+        </div>
+        <div class="about-image">
+            <img src="https://res.cloudinary.com/dqnimh67c/image/upload/v1752949322/img_jua7xs.jpg" alt="About Image">
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Data Base</h3>
+                        <p class="small-para">
+                            SQL (Structured Query Language) is the standard language used to interact with relational databases. It allows users to create, manage, and manipulate data organized in tables. With SQL, you can perform tasks such as retrieving specific information from large datasets, adding new records, updating existing data, deleting records, and defining the structure of databases. It is an essential tool for database management, widely used in industries for data analysis, reporting, and ensuring data integrity.
+                        </p>
+                        
+                </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Web Development
+                        </h3>
+                        <p class="small-para">
+                            Web development refers to the creating,
+                            building, and maintaining
+                            of websites. It includes aspects such as
+                            web design, web publishing,
+                            web programming, and database management.
+                            It is the creation of an
+                            application that works over the internet
+                            i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating,
+                            building, and maintaining
+                            of websites. It includes aspects such as
+                            web design, web publishing,
+                            web programming, and database management.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Data Analytics</h3>
+                        <p class="small-para">
+                            Data analytics is the process of collecting, cleaning, analyzing, and interpreting data to extract meaningful insights. It helps organizations identify patterns and trends, enabling informed decision-making. By using statistical methods and machine learning techniques, raw data is transformed into valuable information. Data analytics is applied across industries like marketing, finance, and healthcare to improve efficiency, predict outcomes, and support strategic planning.
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Data Mining & Exploration
+                        </h3>
+                        <p class="small-para">
+                           Data mining and exploration involve identifying meaningful patterns, trends, and relationships within large datasets. It includes tasks like cleaning and transforming data, discovering insights through statistical methods, and using algorithms such as clustering, classification, and association rules. By leveraging tools like Python, Pandas, SQL, and data visualization libraries, raw data is transformed into valuable information. This process supports informed decision-making, detects hidden opportunities, and lays the foundation for predictive modeling and business intelligence.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Machine Learning
+                        </h3>
+                        <p class="small-para">
+                            Machine learning is a method of teaching computers to learn from data and improve over time without being explicitly programmed for every task. It involves training models on large datasets to recognize patterns, make predictions, and support decision-making. Depending on the type of learning—supervised, unsupervised, or reinforcement—different algorithms and techniques are used. Common models include decision trees, support vector machines, k-means clustering, and neural networks.
+                            Machine learning helps automate complex processes and unlock insights from data across various industries.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Tableu
+                        </h3>
+                        <p class="small-para">
+                            Tableau is a leading visual analytics and business intelligence platform that empowers people and 
+                            organizations to better understand and utilize their data through intuitive, interactive visualizations. 
+                            By allowing users to easily connect to a variety of data sources, blend and prepare data, and 
+                            create compelling dashboards and reports with a drag-and-drop interface, Tableau makes it possible to uncover trends, patterns, 
+                            and insights without needing deep technical expertise. Its robust features support real-time analytics, collaboration, geospatial 
+                            analysis, making Tableau widely adopted for transforming complex datasets.
+                    
+
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" placeholder="Your Name">
+                    <input class="form-controls" type="text" placeholder="Your Email">
+                    <input class="form-controls" type="text" placeholder="Your Phone">
+                    <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30"
+                        rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">alurusaimadhav02@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9390429339</p>
+                </div>
+                
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Bengaluru,Kundhanahalli gate</p>
+                    <p>Gulmohar Enclave Road</p>
+                    <p>nMarathahalli</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2023 All rights reserved |
+                This portfolio website template is created
+                by Saimadhav
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script >
+        const hamburger = document.getElementById('hamburger');
+const menu = document.querySelector('.menu');
+hamburger.addEventListener('click', function () {
+    const hamIcon = this.querySelector('.hamburger-icon');
+    const crossIcon = this.querySelector('.cross-icon');
+    if (hamIcon.style.display === "none") {
+        hamIcon.style.display = "inline-block"
+        menu.style.display = "none"
+        crossIcon.style.display = "none"
+    }
+    else {
+        crossIcon.style.display = "inline-block"
+        hamIcon.style.display = "none"
+        menu.style.display = "block"
+    }
+});
+    </script>
+</body>
+
+</html>
